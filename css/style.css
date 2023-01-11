@@ -92,10 +92,12 @@
 
     /* banner css area */
     #banner {
-        background-image: linear-gradient(to top, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation0.jpg);
+        background-image: url(../images/donation0.jpg);
         padding: 175px 0;
         background-repeat: no-repeat;
         background-size: cover;
+        background-color: grey;
+        background-blend-mode: multiply;
         display: flex;
         justify-content: center;
         align-items: center;
