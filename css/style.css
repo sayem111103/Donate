@@ -1,0 +1,202 @@
+    * {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul,
+    ol {
+        list-style-type: none;
+    }
+
+    .container {
+        width: 1128px;
+        margin: 0 auto;
+    }
+
+    :root {
+        --bgcolor: #FF5959;
+        --font_head_color: #121212;
+        --font_para_color: #707070;
+    }
+
+    .header_main {
+        text-align: center;
+    }
+
+    .header_main h3 {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 45px;
+        padding-bottom: 20px;
+        color: var(--font_head_color);
+    }
+
+    .header_main p {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 50px;
+        padding: 0 192px;
+        color: var(--font_para_color);
+    }
+
+    /* nav css area */
+
+    nav {
+        padding: 20px 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    nav>.container {
+        width: 1128px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .donate a {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul li {
+        padding: 0 15px;
+    }
+
+    nav ul li:last-child {
+        padding-right: 0;
+    }
+
+    nav ul li a {
+        text-transform: capitalize;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    /* banner css area */
+    #banner {
+        background-image: linear-gradient(to top, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation0.jpg);
+        padding: 175px 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ban-txt {
+        text-align: center;
+        width: 826px;
+    }
+
+    .ban-txt h1 {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 65px;
+        color: #FFFFFF;
+    }
+
+    .ban-txt p {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+        line-height: 28px;
+        padding: 0 50px;
+    }
+
+    .ban-txt button {
+        margin-top: 30px;
+        padding: 16px 20px;
+        border-radius: 5px;
+        background-color: var(--bgcolor);
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* donate_today css area  */
+    #donate_today {
+        padding: 130px 0;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .price button {
+        padding: 44px 0;
+        width: 136px;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        background-color: #FAFAFA;
+        color: var(--font_para_color);
+        margin: 0 22px;
+        border-radius: 5px;
+        transition: all linear .3s;
+        cursor: pointer;
+        border: 1px solid #FAFAFA;
+    }
+
+    .price button:hover {
+        background-color: #FFEEEE;
+        border: 1px solid var(--bgcolor);
+        color: var(--bgcolor);
+    }
+
+    form {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    form input[type="number"] {
+        width: 765px;
+        text-align: center;
+        border: none;
+        padding-bottom: 10px;
+    }
+
+    form input::placeholder {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 18px;
+        padding-bottom: 10px;
+        color: #B3B3B3;
+    }
+
+    form input:focus-visible {
+        outline: none;
+    }
+
+    form input[type="submit"] {
+        display: block;
+        padding: 16px 20px;
+        margin: 0 auto;
+        text-transform: capitalize;
+        background-color: var(--bgcolor);
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+    }
