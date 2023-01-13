@@ -1,6 +1,6 @@
     * {
         margin: 0;
-    }
+    }                           
 
     a {
         text-decoration: none;
@@ -39,7 +39,6 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 28px;
-        padding-bottom: 50px;
         padding: 0 192px;
         color: var(--font_para_color);
     }
@@ -156,4 +155,7 @@
         border: none;
         cursor: pointer;
         color: #fff;
+    }
+    .hide{
+        display: none;
     }
