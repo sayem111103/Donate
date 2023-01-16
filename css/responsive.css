@@ -1,4 +1,7 @@
-@media screen and (max-width: 576px) {
+/* ---------------
+  small device css
+  ---------------- */
+@media screen and (max-width: 575.99px) {
     .container{
         width: unset;
         box-sizing: border-box;
@@ -52,9 +55,37 @@
     form input[type="submit"] {
         padding: 10px 15px;
     }
+
+    .donate_plan_main {
+        flex-direction: column;
+    }
+
+    .donate_item {
+        margin: 0 10px;
+    }
+
+    .lives_main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .lives_main .header_main {
+        text-align: center;
+    }
+
+    .lives_main2 {
+        flex-direction: column-reverse;
+    }
+
+    .lives_main2 .header_main {
+        text-align: center;
+    }
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
+/* ----------------
+  medium device css
+  ----------------- */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
     .container{
         width: unset;
         box-sizing: border-box;
@@ -63,19 +94,19 @@
         padding: 50px 0;
     }
     .ban-txt h1 {
-        font-size: 30px;
-        padding: 0 158px;
+        font-size: 24px;
+        padding: 0 36px;
     }
 
     .ban-txt p {
-        font-size: 15px;
-        line-height: 24px;
-        padding: 0 75px;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 0 20px;
     }
 
     .ban-txt button {
-        margin-top: 15px;
-        padding: 15px 20px;
+        margin-top: 10px;
+        padding: 10px 15px;
     }
 
     #donate_today {
@@ -83,9 +114,9 @@
     }
 
     .header_main p {
-        font-size: 15px;
-        line-height: 25px;
-        padding: 0 75px;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 0 30px;
     }
 
     .header_main h3 {
@@ -94,9 +125,9 @@
     }
 
     .price button {
-        padding: 22px 0;
-        width: 90px;
-        font-size: 15px;
+        padding: 19px 0;
+        width: 69px;
+        font-size: 13px;
         margin: 0px 5px;
     }
 
@@ -106,6 +137,95 @@
     }
 
     form input[type="submit"] {
-        padding: 15px 20px;
+        padding: 10px 15px;
+    }
+
+    .donate_plan_main {
+        flex-direction: column;
+    }
+
+    .donate_item {
+        margin: 0 10px;
+    }
+
+    .lives_main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .lives_main .header_main {
+        text-align: center;
+    }
+
+    .lives_main2 {
+        flex-direction: column-reverse;
+    }
+
+    .lives_main2 .header_main {
+        text-align: center;
+    }
+}
+
+/* ---------------
+  large device css
+  ---------------- */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .container{
+        width: unset;
+        box-sizing: border-box;
+    }
+    #banner{
+        padding: 50px 0;
+    }
+
+    #donate_today {
+        padding: 50px 0;
+    }
+
+    .price button {
+        padding: 19px 0;
+        width: 115px;
+        font-size: 20px;
+        margin: 0px 5px;
+    }
+
+    form input[type="number"] {
+        width: 80%;
+        padding-bottom: 10px;
+    }
+
+    .donate_plan_main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .donate_item {
+        margin: 0 10px;
+    }
+
+    .lives_main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .lives_main .header_main {
+        text-align: center;
+    }
+
+    .lives_main2 {
+        flex-direction: column-reverse;
+    }
+
+    .lives_main2 .header_main {
+        text-align: center;
+    }
+}
+
+/* ---------------
+  xl device css
+  ---------------- */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
     }
 }
