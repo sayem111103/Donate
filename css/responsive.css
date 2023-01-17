@@ -2,13 +2,16 @@
   small device css
   ---------------- */
 @media screen and (max-width: 575.99px) {
-    .container{
+    .container {
         width: unset;
         box-sizing: border-box;
+        overflow-x: hidden;
     }
-    #banner{
+
+    #banner {
         padding: 50px 0;
     }
+
     .ban-txt h1 {
         font-size: 24px;
         padding: 0 36px;
@@ -79,6 +82,11 @@
 
     .lives_main2 .header_main {
         text-align: center;
+        margin: 0 10px;
+    }
+
+    #updates .updates_form {
+        padding: 76px 50px;
     }
 }
 
@@ -86,13 +94,15 @@
   medium device css
   ----------------- */
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-    .container{
+    .container {
         width: unset;
         box-sizing: border-box;
     }
-    #banner{
+
+    #banner {
         padding: 50px 0;
     }
+
     .ban-txt h1 {
         font-size: 24px;
         padding: 0 36px;
@@ -164,17 +174,22 @@
     .lives_main2 .header_main {
         text-align: center;
     }
+
+    #updates .updates_form {
+        padding: 76px 140px;
+    }
 }
 
 /* ---------------
   large device css
   ---------------- */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
-    .container{
+    .container {
         width: unset;
         box-sizing: border-box;
     }
-    #banner{
+
+    #banner {
         padding: 50px 0;
     }
 
@@ -225,7 +240,7 @@
   xl device css
   ---------------- */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    .container{
+    .container {
         max-width: 960px;
     }
 }
